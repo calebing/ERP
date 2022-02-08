@@ -1,0 +1,13 @@
+#data
+#单参数
+login:
+  username: liuyanbing
+  password: 4a7d1ed414474e4033ac29ccb8653d9b
+  verifycode: ''
+#多参数
+GetFeatureValueNodeList:
+  data1: {"TreeType":"265","Source":"1","CategoryId":"4","TreeNodeID":"4","ShowCategory":true,"ShowAccessory":true,"Keyword":"","PageRequest":{"Pagination":{"PageIndex":1,"PageSize":100},"FilterGroup":""}}
+  data2: {"TreeType":"265","Source":"1","CategoryId":"5","TreeNodeID":"5","ShowCategory":true,"ShowAccessory":true,"Keyword":"","PageRequest":{"Pagination":{"PageIndex":1,"PageSize":100},"FilterGroup":""}}
+
+SaveSelectSpaceQualitys:
+  data1: {"infos":[1,2,3,4,5,6,7,8]}
