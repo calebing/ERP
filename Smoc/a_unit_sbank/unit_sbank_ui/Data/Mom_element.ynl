@@ -1,0 +1,15 @@
+#登陆账号
+long_username:
+ - action: send_keys
+   by: id
+   value: sy_username
+#登陆密码
+long_password:
+ - action: send_keys
+   by: id
+   value: sy_password
+#登陆点击按钮
+long_button:
+ - action: click
+   by: id
+   value: sy_login_btn
