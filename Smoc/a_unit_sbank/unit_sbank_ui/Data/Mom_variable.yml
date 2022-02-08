@@ -1,0 +1,11 @@
+url65: http://192.168.15.17:10065/Login/Index
+user: liuyanbing
+password: '0000'
+iframa_list: 'sy_iframe_655'
+
+#进入分仓设置暂存框
+TSwarehouse: 'sy_iframe_1092'
+#进入添加仓库框
+warehouse_add1: 'layui-layer-iframe1'
+#输入仓库编号
+input_Code: 'AA'
