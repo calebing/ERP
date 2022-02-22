@@ -438,3 +438,14 @@ class BasePage(object):
         (Keys.CONTROL, 'v')	组合键Ctrf+v，粘贴
         :return:
         '''
+    def unskip(test=''):
+        "获取上个用例执行成败装饰器"
+        def wraps_skip(fun):
+            @wraps(wraps_skip)
+            def inner_skip():
+                if test == wraps_skip.__name__:
+                    pass
+                return pass
+            return inner_skip
+        return wraps_skip
+                
